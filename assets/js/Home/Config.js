@@ -33,18 +33,23 @@ window.addEventListener('load', function () {
         // Modernizr js
         const modernizr = document.createElement('script');
         modernizr.src = './assets/js/vendor/modernizr-3.6.0.min.js';
-        body.insert(modernizr)
+        body.appendChild(modernizr)
 
         
         // Popper js
         const popper = document.createElement('script');
         popper.src = './assets/js/vendor/popper.min.js';
-        body.insert(popper)
+        body.appendChild(popper)
 
         // Ticker js
         const magnific = document.createElement('script');
         magnific.src = './assets/js/vendor/jquery.magnific-popup.js';
-        body.insert(magnific)
+        body.appendChild(magnific)
+
+        // Ticker js
+        const waypoints = document.createElement('script');
+        waypoints.src = './assets/js/vendor/waypoints.min.js';
+        body.appendChild(waypoints)
     }
 
     function delayFacades() {
