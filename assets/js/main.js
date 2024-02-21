@@ -268,9 +268,9 @@
     };
 
     //sidebar sticky
-    var stickySidebar = function() {
-        $('.sticky-sidebar').theiaStickySidebar();
-    };
+    // var stickySidebar = function() {
+    //     $('.sticky-sidebar').theiaStickySidebar();
+    // };
 
     //Custom scrollbar
     var customScrollbar = function() {
@@ -431,7 +431,7 @@
         magPopup();
         scrollToTop();
         headerSticky();
-        stickySidebar();
+        // stickySidebar();
         customSlickSlider();
         megaMenu();
         mobileMenu();
