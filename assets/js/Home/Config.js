@@ -51,6 +51,12 @@ window.addEventListener('load', function () {
         waypoints.src = './assets/js/vendor/waypoints.min.js';
         body.appendChild(waypoints)
 
+
+        // Bootstrap js
+        const bootstrap_js = document.createElement('script');
+        bootstrap_js.src = './assets/js/vendor/bootstrap.min.js';
+        body.appendChild(bootstrap_js)
+
         // FB CDN js
         const fb_cdn = document.createElement('script');
         fb_cdn.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=1473210180142203';
