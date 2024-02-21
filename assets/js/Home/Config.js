@@ -3,7 +3,6 @@ const body = document.body;
 const head = document.head;
 
 window.addEventListener('load', function () {
-    console.log('load hoiche')
 
 
     head.insert = function (data) {
