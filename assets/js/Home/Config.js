@@ -138,12 +138,27 @@ window.addEventListener('load', function () {
         }, 500)
     }
 
+    function loadAds(){
+        
+        // Google Ads
+        const google_ads = document.createElement('script');
+        google_ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7192432760620405';
+        google_ads.setAttribute('async',true)
+        google_ads.setAttribute('crossorigin','anonymous')
+        head.insert(google_ads)
+    }
+
     window.addEventListener('scroll', function () {
         if (window.scrollY > 1000) {
             if (!window.rh) {
                 window.rh = true;
                 facadesLoad();
                 delayFacades();
+            }
+        }else if (this.window.scrollY > 700){
+            if(!window.ads){
+                window.ads = true;
+
             }
         }
     })
