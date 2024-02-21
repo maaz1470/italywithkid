@@ -45,7 +45,7 @@ TABLE CONTENT
 	font-family: 'Crimson Text', serif;
 	font-family: 'Noto Sans JP', sans-serif;
 */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+/* @import url(); */
 :root{
 	--color-mode:"light";
 	--color-primary:#5869DA;
