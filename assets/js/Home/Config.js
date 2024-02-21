@@ -33,23 +33,18 @@ window.addEventListener('load', function () {
         // Modernizr js
         const modernizr = document.createElement('script');
         modernizr.src = './assets/js/vendor/modernizr-3.6.0.min.js';
-        head.insert(modernizr)
+        body.insert(modernizr)
 
         
         // Popper js
         const popper = document.createElement('script');
         popper.src = './assets/js/vendor/popper.min.js';
-        head.insert(popper)
-
-        // Slick nav js
-        const slicknav = document.createElement('script');
-        slicknav.src = './assets/js/vendor/jquery.slicknav.js';
-        head.insert(slicknav)
+        body.insert(popper)
 
         // Ticker js
-        const ticker_js = document.createElement('script');
-        ticker_js.src = './assets/js/vendor/jquery.ticker.js';
-        head.insert(ticker_js)
+        const magnific = document.createElement('script');
+        magnific.src = './assets/js/vendor/jquery.magnific-popup.js';
+        body.insert(magnific)
     }
 
     function delayFacades() {
@@ -192,6 +187,7 @@ window.addEventListener('load', function () {
             }
         }
     })
+
 
 
     setTimeout(() => {
