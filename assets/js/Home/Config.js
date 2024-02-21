@@ -50,6 +50,15 @@ window.addEventListener('load', function () {
         const waypoints = document.createElement('script');
         waypoints.src = './assets/js/vendor/waypoints.min.js';
         body.appendChild(waypoints)
+
+        // FB CDN js
+        const fb_cdn = document.createElement('script');
+        fb_cdn.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=1473210180142203';
+        fb_cdn.setAttribute('defer',true)
+        fb_cdn.setAttribute('async',true)
+        fb_cdn.setAttribute('crossorigin','anonymous')
+        fb_cdn.setAttribute('nonce','okZew7SJ')
+        body.appendChild(fb_cdn)
     }
 
     function delayFacades() {
