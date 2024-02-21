@@ -31,6 +31,7 @@ TABLE CONTENT
 ***/
 
 /* Import third party CSS library */
+@import url(vendor/bootstrap.min.css);
 @import url(vendor/owl.carousel.min.css);
 @import url(vendor/ticker-style.css);
 @import url(vendor/elegant-icons.css);
