@@ -351,7 +351,7 @@ function MM_validateForm() { //v4.0
 
 
 
-             <a href="https://italywithkids.com"><img id="logo-header" src="../assets/imgs/theme/logo.png" alt="Italy with Kids Logo"></a>
+             <a href="https://italywithkids.com"><img loading="lazy" id="logo-header" src="../assets/imgs/theme/logo.png" alt="Italy with Kids Logo"></a>
 
 
 
