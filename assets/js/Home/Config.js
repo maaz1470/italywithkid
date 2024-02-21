@@ -11,15 +11,21 @@ window.addEventListener('load', function () {
     }
 
     function facadesLoad() {
-        // Google Tag
+        // Google Tag js
         const google_tag = document.createElement('script');
         google_tag.src = 'https://www.googletagmanager.com/gtag/js?id=G-BNQFG674Q0';
         head.insert(google_tag)
 
-        // Cookie
+        // Cookie js
         const cookie = document.createElement('script');
         cookie.src = 'assets/js/cookieconsent.min.js';
         head.insert(cookie)
+
+        // Ticker css
+        const ticker = document.createElement('link');
+        ticker.rel = 'stylesheet'
+        ticker.href = 'assets/css/vendor/ticker-style.css';
+        head.insert(ticker)
     }
 
     function delayFacades() {
